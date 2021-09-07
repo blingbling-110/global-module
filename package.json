@@ -1,0 +1,14 @@
+{
+  "name": "@test/global-module",
+  "version": "1.0.0",
+  "description": "A test module for global function and global variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "global"
+  ],
+  "author": "qinzijun",
+  "license": "ISC"
+}
