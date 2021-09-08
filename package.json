@@ -4,11 +4,15 @@
   "description": "A test module for global function and global variables",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [
     "global"
   ],
   "author": "qinzijun",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
